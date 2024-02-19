@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-transform: capitalize;
+}
+h6{
+    color: white;
+}
+
+.hot{
+    border: 3px solid white;
+    height: 250px;
+}
+.poster{
+    margin-top:100px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
