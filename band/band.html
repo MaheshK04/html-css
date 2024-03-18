@@ -11,8 +11,28 @@
     ></script>
   </head>
   <body>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#tour">Tour</a>
+      <a href="#message">Contact</a>
+    </nav>
+    <div class="slideshow" id="home">
+      <div class="slide">
+        <img src="./assets/c1.jpg" alt="" />
+        <h5 class="text">Sample text</h5>
+      </div>
+      <div class="slide">
+        <img src="./assets/c2.jpg" alt="" />
+        <h5 class="text">Sample text</h5>
+      </div>
+      <div class="slide">
+        <img src="./assets/c3.png" alt="" />
+        <h5 class="text">Sample text</h5>
+      </div>
+    </div>
     <!-- aboutBand -->
-    <div class="aboutBand">
+    <div class="aboutBand" id="about">
       <h1>CRYSTAL CASTLES</h1>
       <i>We love Music</i>
       <p>
@@ -43,7 +63,7 @@
       </div>
     </div>
     <!-- Tour Date -->
-    <div class="Tour">
+    <div class="Tour" id="tour">
       <h1>TOUR DATES</h1>
       <i>Remember to book your tickets</i>
       <div class="box">
@@ -86,7 +106,7 @@
         </div>
       </div>
     </div>
-    <div class="contact">
+    <div class="contact" id="message">
       <h1>CONTACT</h1>
       <i>Fan? Drop a note!</i>
       <div class="information">
@@ -137,5 +157,6 @@
       </div>
       <p>Crystal castles@co</p>
     </footer>
+    <script src="./band.js"></script>
   </body>
 </html>
